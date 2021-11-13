@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Close Button</title>
+    
+    <style type="text/css" media="all">
+      * {
+        padding: 0;
+        margin: 0;
+
+        font-family: Sans-Serif;
+        user-select: none;
+        box-sizing: border-box;
+      }
+      
+      body {
+        background-color: #f1f1f1;
+      }
+      
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 15px;
+      }
+      
+      .container .content-box {
+        margin: 15px auto;
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px #fff, 0 5px 5px #fff;
+      }
+      
+      .container .content-box img {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+      }
+      .container .content-box h2 {
+        margin-bottom: 10px;
+        font-size: 23px;
+        text-align: left;
+      }
+      .container .content-box p {
+        margin: 10px 0;
+        font-size: 16px;
+        text-align: left;
+      }
+      .container .content-box .btn {
+        width: 100%;
+        height: 100%;
+        margin: 10px auto;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px #fff, 0 5px 5px #b1b1b1;
+        transition: all .3s ease;
+      }
+      .container .content-box .btn:hover {
+        color: #fff;
+        background-color: red;
+        box-shadow: 0 5px 5px red}
+      
+    </style>
+    
+  </head>
+  <body>
+    
+    <div class="container" id="pembungkus">
+      <div class="content-box">
+        <h2>Harta Elon Musk 4 Tahun Lagi Diprediksi Rp 14.588 Triliun</h2>
+        <img src="elon.jpg"/>
+        <p><b>Jakarta, CNBC Indonesia</b> - Elon Musk diprediksi bisa menjadi triliuner pertama di dunia pada 2025 mendatang. Hal ini berdasarkan laporan yang diunggah di blog NextBigFuture berdasarkan analisis Ark Invest Management yang menghitung kemungkinan nilai saham Tesla empat tahun lagi.</p>
+        <button type="button" class="btn">Hapus Artikel</button>
+      </div>
+      <div class="content-box">
+        <h2>Terungkap Penghasilan Jeff Bezos Tiap Detik, Setara Gaji Tahunan Karyawan Biasa di Jakarta!</h2>
+        <img src="jeff.jpg"/>
+        <p><b>WE Online, Jakarta</b> -
+          Dengan kekayaan bersih USD182 miliar (Rp2.677 triliun), Jeff Bezos, pendiri dan CEO Amazon, adalah orang terkaya di dunia.</p>
+        <button type="button" class="btn">Hapus Artikel</button>
+      </div>
+      <div class="content-box">
+        <h2>Fakta Kekayaan Bill Gates, Hasilkan Jutaan Rupiah dalam 1 Detik</h2>
+        <img src="bill.jpg"/>
+        <p><b>Liputan6.com, Jakarta</b> - Bos Microsoft, Bill Gates dikenal sebagai salah satu miliarder terkaya di dunia. Kekayaannya hingga saat ini mencapai USD 107 miliar alias Rp 1.495 triliun (asumsi kurs 1 Dolar sama dengan Rp 13.976).</p>
+        <button type="button" class="btn">Hapus Artikel</button>
+      </div>
+    </div>
+    
+    
+  <script src="main.js"></script>
+  </body>
+</html>
