@@ -7,13 +7,3 @@ container.addEventListener("click", (e)=> {
 });
 
 
-function init() {
-  let nama = "aldi";
-  function info() {
-    console.log(`Halo ${nama}`);
-  }
-  return info();
-}
-
-init();
-
